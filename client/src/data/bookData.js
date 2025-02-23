@@ -1,0 +1,46 @@
+import { COLORS } from "../utils/colors";
+
+export const bookData = [
+  {
+    id: 1,
+    title: "해와 달이 된 오누이",
+    type: "전래동화",
+    status: "완료",
+    progress: 100,
+    cover: "🌙",
+    color: COLORS.YELLOW,
+    folderId: 1,
+    content: {
+      author: "작가 정보 없음",
+      reason: "우리나라의 전래동화가 궁금했어요",
+      specialReason: "",
+      memorable: "달님이 된 오누이가 멋있었어요",
+      favoriteSentence: "",
+      character: "용감한 오누이가 마음에 들었어요",
+      learned: "용기있게 행동하는 게 중요해요",
+      recommend: "재미있는 전래동화를 좋아하는 친구들에게 추천해요",
+      rating: 4.5,
+    },
+  },
+  {
+    id: 2,
+    title: "흥부와 놀부",
+    type: "전래동화",
+    status: "작성중",
+    progress: 33,
+    cover: "🏠",
+    color: COLORS.GREEN,
+    folderId: 2,
+    content: {
+      author: "작가 정보 없음",
+      reason: "착한 흥부가 어떻게 잘 살게 되었는지 궁금했어요",
+      specialReason: "",
+      memorable: "",
+      favoriteSentence: "",
+      character: "",
+      learned: "",
+      recommend: "",
+      rating: 0,
+    },
+  },
+];
